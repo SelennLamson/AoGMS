@@ -50,7 +50,7 @@
             "Key": "1e743bad-2829-4463-b278-02e2ac2384cc",
             "Value": {
                 "id": "4e8fbad3-25d4-4b11-a92c-cd71a20af71a",
-                "resourcePath": "sprites\\SprPurpleBackground\\SprPurpleBackground.yy",
+                "resourcePath": "sprites\\spr_purple_background\\spr_purple_background.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -114,15 +114,7 @@
             "Key": "6d01ff13-882f-4f30-ba53-82bcacf32470",
             "Value": {
                 "id": "8055e2b1-acb4-44d6-aa7e-81881d34257b",
-                "resourcePath": "sprites\\SprStoneBrick\\SprStoneBrick.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "76beffab-7463-4fa4-99fd-4893de3a0eb0",
-            "Value": {
-                "id": "1df2f047-fb02-4ca3-a4e7-8a4380e5fcd0",
-                "resourcePath": "sprites\\SprDirtToBlack\\SprDirtToBlack.yy",
+                "resourcePath": "sprites\\spr_stone_brick\\spr_stone_brick.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -130,7 +122,7 @@
             "Key": "848b5eba-5d37-4b69-9064-f2568353f0d8",
             "Value": {
                 "id": "64c4207e-c2c5-43d1-b88c-8423ade8e29f",
-                "resourcePath": "objects\\ObjPlayer\\ObjPlayer.yy",
+                "resourcePath": "objects\\obj_player\\obj_player.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -178,7 +170,7 @@
             "Key": "b17e75db-c651-4d47-b4b2-1fcab96fa0bb",
             "Value": {
                 "id": "a86078d4-c29e-4e32-b0b5-b1b560e2dee2",
-                "resourcePath": "sprites\\SprGreenBackgroundAutel\\SprGreenBackgroundAutel.yy",
+                "resourcePath": "sprites\\spr_green_background_autel\\spr_green_background_autel.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -234,7 +226,7 @@
             "Key": "d9245c6e-be17-4270-a5fe-91a2de161c5a",
             "Value": {
                 "id": "9b17288d-fbd9-4186-9ef6-ba990362450f",
-                "resourcePath": "sprites\\SprCharacter\\SprCharacter.yy",
+                "resourcePath": "sprites\\spr_player\\spr_player.yy",
                 "resourceType": "GMSprite"
             }
         },
