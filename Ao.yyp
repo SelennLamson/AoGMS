@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "1205d600-9da6-429f-b99a-d0f8944a037d",
+            "Value": {
+                "id": "8640dd28-720d-4e6e-8f8f-c05109d95b88",
+                "resourcePath": "sprites\\spr_test\\spr_test.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1b4779fd-21f3-4be9-9582-a769851c334e",
             "Value": {
                 "id": "8ce18650-9444-46f8-ad00-bbee3a259847",
@@ -47,6 +55,14 @@
             }
         },
         {
+            "Key": "29e80107-4dfd-44d5-a8dc-2dd46e082885",
+            "Value": {
+                "id": "de28c0e0-ac70-4b3c-972a-107a8925a548",
+                "resourcePath": "objects\\obj_player\\obj_player.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2ed4a5b4-c5b1-476d-a44a-46177a79cc42",
             "Value": {
                 "id": "4d66c2a1-a9ce-446b-92b8-df3177217e8c",
@@ -60,6 +76,14 @@
                 "id": "0c77355e-5874-4978-bead-1a174e39c439",
                 "resourcePath": "views\\2fb30eb9-c81a-4566-8943-6a14dc17ee9e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3193410a-a9c6-4678-9876-8df27f309bc9",
+            "Value": {
+                "id": "74ca14ee-d103-43c3-9f3c-f3778ad2d367",
+                "resourcePath": "sprites\\spr_player\\spr_player.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -108,6 +132,14 @@
                 "id": "7835491f-0baa-4a2c-afb0-1f5c89334395",
                 "resourcePath": "views\\58a893e6-bc78-4793-8502-11925781f533.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "591d5c4c-55d4-445b-afd0-61157d04ef31",
+            "Value": {
+                "id": "58d5d103-e82e-4451-95bd-46178960b430",
+                "resourcePath": "tilesets\\ts_test\\ts_test.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
