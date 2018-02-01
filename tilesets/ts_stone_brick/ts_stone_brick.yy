@@ -2,7 +2,7 @@
     "id": "edebd7c4-4bd6-425c-b120-608d4d96a474",
     "modelName": "GMTileSet",
     "mvc": "1.11",
-    "name": "TsStoneBrick",
+    "name": "ts_stone_brick",
     "auto_tile_sets": [
         {
             "id": "b920ef03-fd28-4b57-a7e6-5e8dd30cc93f",

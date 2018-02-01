@@ -55,14 +55,6 @@
             }
         },
         {
-            "Key": "298a4035-2d72-4af6-a22e-e6ebb1fedb28",
-            "Value": {
-                "id": "71e200d6-1d09-4032-aba2-0861c14680c6",
-                "resourcePath": "tilesets\\TsDirtToBlack\\TsDirtToBlack.yy",
-                "resourceType": "GMTileSet"
-            }
-        },
-        {
             "Key": "3519bdd0-ec72-414f-950f-670371a30695",
             "Value": {
                 "id": "878a384b-8025-45d4-91b7-ca2710f56a5a",
@@ -234,7 +226,7 @@
             "Key": "edebd7c4-4bd6-425c-b120-608d4d96a474",
             "Value": {
                 "id": "75e8cd76-56f8-42d1-847f-f50aad5da281",
-                "resourcePath": "tilesets\\TsStoneBrick\\TsStoneBrick.yy",
+                "resourcePath": "tilesets\\ts_stone_brick\\ts_stone_brick.yy",
                 "resourceType": "GMTileSet"
             }
         },
