@@ -31,11 +31,43 @@
     },
     "resources": [
         {
+            "Key": "0539ba78-44fb-42af-90d2-c710eb92d5a3",
+            "Value": {
+                "id": "268fa481-45f5-41f5-b951-14b55b789e9e",
+                "resourcePath": "tilesets\\ts_green_stone\\ts_green_stone.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "1205d600-9da6-429f-b99a-d0f8944a037d",
             "Value": {
                 "id": "8640dd28-720d-4e6e-8f8f-c05109d95b88",
                 "resourcePath": "sprites\\spr_test\\spr_test.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "15197ffb-ea26-4577-8b07-2a848edb6ed6",
+            "Value": {
+                "id": "18837f67-18ea-4382-aaac-1ad319191c86",
+                "resourcePath": "sprites\\spr_green_stone_tileset\\spr_green_stone_tileset.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1a9866e7-e774-4493-827e-7357ddcb508b",
+            "Value": {
+                "id": "bd336745-db1c-47a2-a832-95d8fd8578e8",
+                "resourcePath": "tilesets\\ts_test_motifs\\ts_test_motifs.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "1ae91b95-cb51-4362-a86f-8cfe66b0415b",
+            "Value": {
+                "id": "c94728be-b429-45a5-8678-cc534fafc8e8",
+                "resourcePath": "tilesets\\ts_test_shadows\\ts_test_shadows.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -223,6 +255,14 @@
             }
         },
         {
+            "Key": "e4ce4ad7-d13a-4809-b106-a0e1547b492f",
+            "Value": {
+                "id": "48f722ed-45da-499a-92a2-5b6d1e2044a9",
+                "resourcePath": "sprites\\spr_test_motifs\\spr_test_motifs.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ef7be26b-e006-4164-8e48-24174b43dfb6",
             "Value": {
                 "id": "54e6ac43-0578-4893-afa0-c6a3b1733a98",
@@ -244,6 +284,14 @@
                 "id": "aaf04c01-2f1b-4a57-909a-34f1a8e6b644",
                 "resourcePath": "views\\f52f1f39-5ee3-41be-81fa-dd18debfaefc.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f75c8da6-1f16-46d3-9621-4c1f2eeab765",
+            "Value": {
+                "id": "7cae0474-94dd-49ed-a2e8-1cb0615d9568",
+                "resourcePath": "sprites\\spr_test_shadows\\spr_test_shadows.yy",
+                "resourceType": "GMSprite"
             }
         }
     ],
