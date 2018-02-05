@@ -193,14 +193,6 @@
         {
             "Key": "85430d65-f056-4b09-84f5-252c001d3130",
             "Value": {
-                "id": "699e8d54-c56a-4713-832d-e0d71859cd8c",
-                "resourcePath": "sprites\\spr_player_up\\spr_player_up.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "85430d65-f056-4b09-84f5-252c001d3130",
-            "Value": {
                 "id": "ff16b28b-07e4-4571-bc0a-fc12d2fd9437",
                 "resourcePath": "views\\85430d65-f056-4b09-84f5-252c001d3130.yy",
                 "resourceType": "GMFolder"
