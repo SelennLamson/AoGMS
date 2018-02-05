@@ -183,6 +183,22 @@
             }
         },
         {
+            "Key": "631ea530-dce5-437e-871d-81ff2e79f6c2",
+            "Value": {
+                "id": "eda73815-46d2-46ce-a7d4-b5ec6c0da6a7",
+                "resourcePath": "sprites\\spr_player_right\\spr_player_right.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "70672d8e-4003-48b4-83bc-f7ce9a8516ec",
+            "Value": {
+                "id": "61d017ba-a7ad-480b-9180-4d59a81a0b86",
+                "resourcePath": "sprites\\spr_player_idle_left\\spr_player_idle_left.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7689785b-948f-4c1e-b9b3-2ce20b25f773",
             "Value": {
                 "id": "699e8d54-c56a-4713-832d-e0d71859cd8c",
@@ -204,6 +220,14 @@
                 "id": "d4a485e9-bdaa-4923-b0e0-08b2f616f712",
                 "resourcePath": "views\\921e2423-a21d-4559-939f-8edaa72591b0.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "934f94eb-94a9-4470-9891-066f3e166bdf",
+            "Value": {
+                "id": "dcbda3c8-439a-4b34-a2ef-20449ddd0191",
+                "resourcePath": "sprites\\spr_player_left\\spr_player_left.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -244,6 +268,14 @@
                 "id": "3e58a5c3-8ff9-47a8-8114-de8e05f13daa",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "acd8718e-5a67-446e-bad6-9ec79684544d",
+            "Value": {
+                "id": "a26b528c-a919-4e5f-a232-94e57ecd92ba",
+                "resourcePath": "sprites\\spr_player_idle_right\\spr_player_idle_right.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
