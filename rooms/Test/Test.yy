@@ -1,6 +1,6 @@
 
 {
-    "name": "test_room_thomas",
+    "name": "Test",
     "id": "9dd71650-7a1b-4d08-821a-d618428b1bd6",
     "creationCodeFile": "",
     "inheritCode": false,
