@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "15b7f59b-f888-433f-8ab4-942b57ef10f4",
+            "Value": {
+                "id": "e58381d7-745a-4c0f-8b51-b6fdfeda70ad",
+                "resourcePath": "sprites\\spr_GameInit\\spr_GameInit.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1a9866e7-e774-4493-827e-7357ddcb508b",
             "Value": {
                 "id": "bd336745-db1c-47a2-a832-95d8fd8578e8",
@@ -188,6 +196,14 @@
                 "id": "eda73815-46d2-46ce-a7d4-b5ec6c0da6a7",
                 "resourcePath": "sprites\\spr_player_right\\spr_player_right.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "65aa0395-32e8-4aec-9821-787708325588",
+            "Value": {
+                "id": "ae12aafa-14a9-41f9-ae38-5573c4c671be",
+                "resourcePath": "objects\\obj_GameInit\\obj_GameInit.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -327,6 +343,14 @@
             }
         },
         {
+            "Key": "d0fdae83-3dbc-4c0f-b830-9db5063009d3",
+            "Value": {
+                "id": "3efc1569-6c23-492e-b976-758add2e24dc",
+                "resourcePath": "rooms\\rGameInit\\rGameInit.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "da5f79bd-ec9b-47a8-b065-f2225aa7aa3a",
             "Value": {
                 "id": "6fee82a7-33a2-4ff4-83fe-be75ba690c2a",
@@ -348,6 +372,14 @@
                 "id": "48f722ed-45da-499a-92a2-5b6d1e2044a9",
                 "resourcePath": "sprites\\spr_test_motifs\\spr_test_motifs.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ef291334-daaf-47a3-91d1-18b92083f5fa",
+            "Value": {
+                "id": "4a7e5862-d689-4788-8112-ce55f7ca3f9f",
+                "resourcePath": "views\\ef291334-daaf-47a3-91d1-18b92083f5fa.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
