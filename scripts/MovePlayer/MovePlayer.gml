@@ -7,28 +7,34 @@ var yaxis = gamepad_axis_value(0, gp_axislv);
 
 // --------------------KEYBOARD-------------------
 
-if (keyboard_check(movementInputs[0])) {
+if (keyboard_check(movementKinputs[0])) {
 	yaxis = -1;
 }
-if (keyboard_check(movementInputs[1])) {
+if (keyboard_check(movementKinputs[1])) {
 	yaxis = 1;
 	
 }
-if (keyboard_check(movementInputs[2])) {
+if (keyboard_check(movementKinputs[2])) {
 	xaxis = -1;
 }
-if (keyboard_check(movementInputs[3])) {
-	xaxis = 1
+if (keyboard_check(movementKinputs[3])) {
+	xaxis = 1;
 }
 
-// MOVE
+// --------------------MOVE-----------------------
 
 if ((xaxis != 0) || (yaxis != 0)) {
 	x += xaxis * walkSpeed;
 	y += yaxis * walkSpeed;
 }
+
+// --------------------SPRINT---------------------
+
+// GAMEPAD
+
+// KEYBOARD
 	
-// CURRENT ANIMATION
+// --------------------CURRENT ANIMATION----------
 
 if (xaxis > 0) {
 	currentAnim = animRight;
