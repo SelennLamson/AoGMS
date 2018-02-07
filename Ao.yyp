@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "792e0a06-6a0e-4dd8-9f4a-a61db1d8eba9",
+            "Value": {
+                "id": "67e2a45e-6beb-4c58-8e62-f2152ce3598c",
+                "resourcePath": "scripts\\MovePlayer\\MovePlayer.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "85430d65-f056-4b09-84f5-252c001d3130",
             "Value": {
                 "id": "ff16b28b-07e4-4571-bc0a-fc12d2fd9437",
@@ -303,6 +311,14 @@
             }
         },
         {
+            "Key": "bc6bb261-ea28-4906-af1e-8f7551269568",
+            "Value": {
+                "id": "3e64c87e-c5b2-4396-9c27-11cb61960d57",
+                "resourcePath": "scripts\\GameInit\\GameInit.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c4764acb-0c74-4ae7-96b3-9cd8e911c5ea",
             "Value": {
                 "id": "9fa3017b-5a8a-49b5-bf2e-7e83d6ddfef8",
@@ -376,7 +392,9 @@
         }
     ],
     "script_order": [
-        "11fdf839-23fd-4688-a4b6-91ced9c96e5d"
+        "792e0a06-6a0e-4dd8-9f4a-a61db1d8eba9",
+        "11fdf839-23fd-4688-a4b6-91ced9c96e5d",
+        "bc6bb261-ea28-4906-af1e-8f7551269568"
     ],
     "tutorial": ""
 }
