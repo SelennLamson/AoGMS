@@ -10,14 +10,14 @@ var yaxis = gamepad_axis_value(0, gp_axislv);
 if (keyboard_check(movementInputs[0])) {
 	yaxis = -1;
 }
-if (keyboard_key == movementInputs[1]) {
+if (keyboard_check(movementInputs[1])) {
 	yaxis = 1;
 	
 }
-if (keyboard_key == movementInputs[2]) {
+if (keyboard_check(movementInputs[2])) {
 	xaxis = -1;
 }
-if (keyboard_key == movementInputs[3]) {
+if (keyboard_check(movementInputs[3])) {
 	xaxis = 1
 }
 
