@@ -36,7 +36,7 @@ if (_dx > 0 && (tileRT == 0 || tileRB == 0)) {
 }
 
 if (_dx < 0 && (tileLT == 0 || tileLB == 0)) {
-	x = (tLeft << TILE_SHIFT) + TILE_SIZE + _left + 1;
+	x = (tLeft << TILE_SHIFT) + TILE_SIZE + _left;
 }
 
 // Redo vertical move
@@ -58,5 +58,5 @@ if (_dy > 0 && (tileLB == 0 || tileRB == 0)) {
 }
 
 if (_dy < 0 && (tileLT == 0 || tileRT == 0)) {
-	y = (tTop << TILE_SHIFT) + TILE_SIZE + _top + 1;
+	y = (tTop << TILE_SHIFT) + TILE_SIZE + _top;
 }
