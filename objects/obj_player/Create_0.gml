@@ -15,5 +15,13 @@ animRight[1] = spr_player_right;
 currentAnim = animDown;
 
 // --------------------GAMEPAD--------------------
-gamepad_set_axis_deadzone(0, 0.5);
+
+gamepad_set_axis_deadzone(0, 0.4);
 gamepad_set_button_threshold(0, 0.1);
+
+// --------------------KEYBOARD-------------------
+
+movementInputs[0] = ord("D");
+movementInputs[1] = ord("Z");
+movementInputs[2] = ord("Q");
+movementInputs[3] = ord("S");
