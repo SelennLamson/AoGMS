@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "11fdf839-23fd-4688-a4b6-91ced9c96e5d",
+            "Value": {
+                "id": "b14b98ff-299e-4bdb-be6e-cb5ec8a8dba8",
+                "resourcePath": "scripts\\ProcessCollisions\\ProcessCollisions.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1205d600-9da6-429f-b99a-d0f8944a037d",
             "Value": {
                 "id": "8640dd28-720d-4e6e-8f8f-c05109d95b88",
@@ -199,6 +207,14 @@
             }
         },
         {
+            "Key": "76b92e26-4894-484a-9049-eccba2bd4711",
+            "Value": {
+                "id": "c14ad6b6-f0c7-4880-bf1f-26f497fa4373",
+                "resourcePath": "objects\\obj_RoomInit\\obj_RoomInit.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "85430d65-f056-4b09-84f5-252c001d3130",
             "Value": {
                 "id": "ff16b28b-07e4-4571-bc0a-fc12d2fd9437",
@@ -279,6 +295,14 @@
             }
         },
         {
+            "Key": "bc0f4855-84a6-40a5-a60c-2d9aa79cdfdd",
+            "Value": {
+                "id": "8b88c10c-1090-413b-bb23-517429d1fca6",
+                "resourcePath": "sprites\\spr_RoomInit\\spr_RoomInit.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c4764acb-0c74-4ae7-96b3-9cd8e911c5ea",
             "Value": {
                 "id": "9fa3017b-5a8a-49b5-bf2e-7e83d6ddfef8",
@@ -352,7 +376,7 @@
         }
     ],
     "script_order": [
-        
+        "11fdf839-23fd-4688-a4b6-91ced9c96e5d"
     ],
     "tutorial": ""
 }
