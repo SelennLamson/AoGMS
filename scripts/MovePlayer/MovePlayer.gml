@@ -5,27 +5,29 @@
 var xaxis = gamepad_axis_value(0, gp_axislh);
 var yaxis = gamepad_axis_value(0, gp_axislv);
 
+// --------------------KEYBOARD-------------------
+
+if (keyboard_check(movementInputs[0])) {
+	yaxis = -1;
+}
+if (keyboard_key == movementInputs[1]) {
+	yaxis = 1;
+	
+}
+if (keyboard_key == movementInputs[2]) {
+	xaxis = -1;
+}
+if (keyboard_key == movementInputs[3]) {
+	xaxis = 1
+}
+
 // MOVE
 
 if ((xaxis != 0) || (yaxis != 0)) {
 	x += xaxis * walkSpeed;
 	y += yaxis * walkSpeed;
 }
-
-// --------------------KEYBOARD-------------------
-
-//var moveXinput = 0;
-//var moveYinput = 0;
-
-//for (var i = 0; i < array_length_1d(movementInputs); i++) {
-//	var thisKey = movementInputs[i];
-//	if keyboard_check(thisKey) {
-//		var thisAngle = i*90;
-//		moveXinput += lengthdir_x(1, thisAngle);
-//		moveYinput += lengthdir_y(1, thisAngle);
-//	}
-//}
-
+	
 // CURRENT ANIMATION
 
 if (xaxis > 0) {

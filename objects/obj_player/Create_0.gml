@@ -21,7 +21,7 @@ gamepad_set_button_threshold(0, 0.1);
 
 // --------------------KEYBOARD-------------------
 
-movementInputs[0] = ord("D");
-movementInputs[1] = ord("Z");
+movementInputs[0] = ord("Z");
+movementInputs[1] = ord("S");
 movementInputs[2] = ord("Q");
-movementInputs[3] = ord("S");
+movementInputs[3] = ord("D");
