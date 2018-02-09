@@ -55,6 +55,20 @@
             "value": "2",
             "varName": "walkSpeed",
             "varType": 1
+        },
+        {
+            "id": "b232c216-a2af-48e8-954f-482971b7d74e",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "3",
+            "varName": "sprintSpeed",
+            "varType": 1
         }
     ],
     "solid": false,

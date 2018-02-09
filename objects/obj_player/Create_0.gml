@@ -19,10 +19,40 @@ currentAnim = animDown;
 gamepad_set_axis_deadzone(0, 0.4);
 gamepad_set_button_threshold(0, 0.1);
 
+// NORMAL MODE
+
+gInputs[0] = gp_face1;		// A
+gInputs[1] = gp_face2;		// B
+gInputs[2] = gp_face3;		// X
+gInputs[3] = gp_face4;		// Y
+
+gInputs[5] = gp_shoulderl;	// LB
+gInputs[6] = gp_shoulderlb;	// LT
+gInputs[7] = gp_shoulderr;	// RB
+gInputs[8] = gp_shoulderrb;	// RT
+
+gInputs[9] = gp_select;		// Select
+gInputs[10] = gp_start;		// Start
+
+gInputs[11] = gp_stickl;	// Left stick pressed as a button
+gInputs[12] = gp_stickr;	// Right stick pressed as a button
+
+gInputs[13] = gp_padu;		// D-pad up
+gInputs[14] = gp_padd;		// D-pad down
+gInputs[15] = gp_padl;		// D-pad left
+gInputs[16] = gp_padr;		// D-pad right
+
+// PREY MODE
+
+
 // --------------------KEYBOARD-------------------
 
-movementKinputs[0] = ord("Z");
-movementKinputs[1] = ord("S");
-movementKinputs[2] = ord("Q");
-movementKinputs[3] = ord("D");
-movementKinputs[4] = vk_lshift;
+// NORMAL MODE
+
+kInputs[0] = ord("Z");
+kInputs[1] = ord("S");
+kInputs[2] = ord("Q");
+kInputs[3] = ord("D");
+kInputs[4] = vk_shift;
+
+// PREY MODE
