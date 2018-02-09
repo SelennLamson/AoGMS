@@ -1,5 +1,7 @@
 ///@description Move the player based on the various different controllers
 
+var moveSpeed = walkSpeed;
+
 // --------------------GAMEPAD--------------------
 
 var xaxis = gamepad_axis_value(0, gp_axislh);
@@ -7,33 +9,41 @@ var yaxis = gamepad_axis_value(0, gp_axislv);
 
 // --------------------KEYBOARD-------------------
 
-if (keyboard_check(movementKinputs[0])) {
+if (keyboard_check(kInputs[0])) {
 	yaxis = -1;
 }
-if (keyboard_check(movementKinputs[1])) {
+if (keyboard_check(kInputs[1])) {
 	yaxis = 1;
 	
 }
-if (keyboard_check(movementKinputs[2])) {
+if (keyboard_check(kInputs[2])) {
 	xaxis = -1;
 }
-if (keyboard_check(movementKinputs[3])) {
+if (keyboard_check(kInputs[3])) {
 	xaxis = 1;
-}
-
-// --------------------MOVE-----------------------
-
-if ((xaxis != 0) || (yaxis != 0)) {
-	x += xaxis * walkSpeed;
-	y += yaxis * walkSpeed;
 }
 
 // --------------------SPRINT---------------------
 
 // GAMEPAD
 
+if (gamepad_button_check(0, gInputs[6])) {
+	moveSpeed = sprintSpeed;
+}
+
 // KEYBOARD
-	
+
+if (keyboard_check(kInputs[4])) {
+	moveSpeed = sprintSpeed;
+}
+
+// --------------------MOVE-----------------------
+
+if ((xaxis != 0) || (yaxis != 0)) {
+	x += xaxis * moveSpeed;
+	y += yaxis * moveSpeed;
+}
+
 // --------------------CURRENT ANIMATION----------
 
 if (xaxis > 0) {

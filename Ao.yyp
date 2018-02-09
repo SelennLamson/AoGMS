@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "004a4814-247c-463a-a956-1d143a46d5fc",
+            "Value": {
+                "id": "14460302-691f-4c42-896f-f0d4dde6c8ca",
+                "resourcePath": "views\\004a4814-247c-463a-a956-1d143a46d5fc.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "0539ba78-44fb-42af-90d2-c710eb92d5a3",
             "Value": {
                 "id": "268fa481-45f5-41f5-b951-14b55b789e9e",
@@ -207,6 +215,22 @@
             }
         },
         {
+            "Key": "67d6a95b-de67-47f3-a643-d1e533d5e240",
+            "Value": {
+                "id": "8016a68e-f93f-436f-9d9d-ae6a241ecc15",
+                "resourcePath": "sprites\\spr_doorPurple\\spr_doorPurple.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6e665e8b-c02b-462d-b8f4-13c56b359c68",
+            "Value": {
+                "id": "68ad96e9-d66b-42b4-956b-18b92cd685b2",
+                "resourcePath": "objects\\obj_doorsParents\\obj_doorsParents.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "70672d8e-4003-48b4-83bc-f7ce9a8516ec",
             "Value": {
                 "id": "61d017ba-a7ad-480b-9180-4d59a81a0b86",
@@ -236,6 +260,14 @@
                 "id": "67e2a45e-6beb-4c58-8e62-f2152ce3598c",
                 "resourcePath": "scripts\\MovePlayer\\MovePlayer.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "853fd0d9-efd6-4aa3-ba29-b0cbb971421d",
+            "Value": {
+                "id": "e9796d1e-731e-46e9-a3c4-67469c92aa74",
+                "resourcePath": "sprites\\spr_doorBasic\\spr_doorBasic.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -372,6 +404,14 @@
                 "id": "48f722ed-45da-499a-92a2-5b6d1e2044a9",
                 "resourcePath": "sprites\\spr_test_motifs\\spr_test_motifs.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ee82390c-5fcb-4225-9492-a01e0d8c0cce",
+            "Value": {
+                "id": "a7385437-947f-475d-b586-18ed11a14c83",
+                "resourcePath": "objects\\obj_smallDoor\\obj_smallDoor.yy",
+                "resourceType": "GMObject"
             }
         },
         {
