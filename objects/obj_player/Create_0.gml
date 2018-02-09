@@ -27,12 +27,12 @@ gInputs[2] = gp_face3;		// X
 gInputs[3] = gp_face4;		// Y
 
 gInputs[5] = gp_shoulderl;	// LB
-gInputs[6] = gp_shoulderlb;	// LT
+gInputs[6] = gp_shoulderlb;	// LT	SPRINT
 gInputs[7] = gp_shoulderr;	// RB
 gInputs[8] = gp_shoulderrb;	// RT
 
 gInputs[9] = gp_select;		// Select
-gInputs[10] = gp_start;		// Start
+gInputs[10] = gp_start;		// Start	MENU
 
 gInputs[11] = gp_stickl;	// Left stick pressed as a button
 gInputs[12] = gp_stickr;	// Right stick pressed as a button
@@ -49,10 +49,10 @@ gInputs[16] = gp_padr;		// D-pad right
 
 // NORMAL MODE
 
-kInputs[0] = ord("Z");
-kInputs[1] = ord("S");
-kInputs[2] = ord("Q");
-kInputs[3] = ord("D");
-kInputs[4] = vk_shift;
+kInputs[0] = ord("Z");	// MOVE UP
+kInputs[1] = ord("S");	// MOVE DOWN
+kInputs[2] = ord("Q");	// MOVE LEFT
+kInputs[3] = ord("D");	// MOVE RIGHT
+kInputs[4] = vk_shift;	// SPRINT
 
 // PREY MODE
