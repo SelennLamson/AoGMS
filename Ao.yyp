@@ -55,6 +55,22 @@
             }
         },
         {
+            "Key": "0d9d39e2-1461-4114-a067-2664726f3bcf",
+            "Value": {
+                "id": "7051c05c-3553-4289-8292-3d708fff5545",
+                "resourcePath": "objects\\obj_interactables\\obj_interactables.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "1118ebab-dfbe-4d9c-9473-7d397aeee998",
+            "Value": {
+                "id": "77ddda58-e079-47fc-92a2-b2f75cf50d01",
+                "resourcePath": "objects\\obj_debugDoor\\obj_debugDoor.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "11fdf839-23fd-4688-a4b6-91ced9c96e5d",
             "Value": {
                 "id": "b14b98ff-299e-4bdb-be6e-cb5ec8a8dba8",
@@ -108,6 +124,14 @@
                 "id": "8ce18650-9444-46f8-ad00-bbee3a259847",
                 "resourcePath": "views\\1b4779fd-21f3-4be9-9582-a769851c334e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "20038e81-babc-4853-8a0c-d3a925d442b7",
+            "Value": {
+                "id": "03726788-7b74-465b-b87c-a3614a10fa4a",
+                "resourcePath": "rooms\\PersistTest\\PersistTest.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -279,6 +303,14 @@
             }
         },
         {
+            "Key": "8fbce925-c30b-47c3-a639-c451bf57860c",
+            "Value": {
+                "id": "6e2f202c-3c6a-4e1c-9486-26a67db20508",
+                "resourcePath": "sprites\\spr_doorOpenParent\\spr_doorOpenParent.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "921e2423-a21d-4559-939f-8edaa72591b0",
             "Value": {
                 "id": "d4a485e9-bdaa-4923-b0e0-08b2f616f712",
@@ -307,6 +339,22 @@
             "Value": {
                 "id": "bf3a6016-f06a-4271-913a-62bc40bbef23",
                 "resourcePath": "views\\95120719-55fe-45e6-baa3-92c7cf111f93.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "993df9c2-b42d-4080-85af-2bb05922a812",
+            "Value": {
+                "id": "5cb76060-4931-4dd0-b3f9-f07259dccd1b",
+                "resourcePath": "scripts\\Interact\\Interact.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "9dc04498-68e8-4445-b6f3-8273f8645345",
+            "Value": {
+                "id": "fe5bc69e-feb8-44d9-942c-8a072418b6ca",
+                "resourcePath": "views\\9dc04498-68e8-4445-b6f3-8273f8645345.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -340,6 +388,14 @@
                 "id": "a26b528c-a919-4e5f-a232-94e57ecd92ba",
                 "resourcePath": "sprites\\spr_player_idle_right\\spr_player_idle_right.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b8c5f140-f481-4b7b-96ec-608c8726d32d",
+            "Value": {
+                "id": "ed506434-64da-4f2c-812a-68f5cb941497",
+                "resourcePath": "scripts\\SetDoorState\\SetDoorState.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -457,7 +513,9 @@
     ],
     "script_order": [
         "792e0a06-6a0e-4dd8-9f4a-a61db1d8eba9",
-        "11fdf839-23fd-4688-a4b6-91ced9c96e5d"
+        "11fdf839-23fd-4688-a4b6-91ced9c96e5d",
+        "b8c5f140-f481-4b7b-96ec-608c8726d32d",
+        "993df9c2-b42d-4080-85af-2bb05922a812"
     ],
     "tutorial": ""
 }

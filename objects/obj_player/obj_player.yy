@@ -69,6 +69,34 @@
             "value": "3",
             "varName": "sprintSpeed",
             "varType": 1
+        },
+        {
+            "id": "300b89d9-9e93-4336-ace1-458854162f1f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "4",
+            "varName": "xNearest",
+            "varType": 0
+        },
+        {
+            "id": "ec47f479-dc16-4ffb-b3bf-20134895a16a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "4",
+            "varName": "yNearest",
+            "varType": 0
         }
     ],
     "solid": false,

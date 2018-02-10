@@ -21,7 +21,7 @@ gamepad_set_button_threshold(0, 0.1);
 
 // NORMAL MODE
 
-gInputs[0] = gp_face1;		// A
+gInputs[0] = gp_face1;		// A	INTERACT
 gInputs[1] = gp_face2;		// B
 gInputs[2] = gp_face3;		// X
 gInputs[3] = gp_face4;		// Y
@@ -54,5 +54,7 @@ kInputs[1] = ord("S");	// MOVE DOWN
 kInputs[2] = ord("Q");	// MOVE LEFT
 kInputs[3] = ord("D");	// MOVE RIGHT
 kInputs[4] = vk_shift;	// SPRINT
+
+kInputs[5] = ord("E");	// INTERACT
 
 // PREY MODE

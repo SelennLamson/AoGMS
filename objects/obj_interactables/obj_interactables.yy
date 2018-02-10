@@ -1,33 +1,14 @@
 {
-    "id": "6e665e8b-c02b-462d-b8f4-13c56b359c68",
+    "id": "0d9d39e2-1461-4114-a067-2664726f3bcf",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_doorsParents",
+    "name": "obj_interactables",
     "eventList": [
-        {
-            "id": "39eccb65-4d24-4759-b112-1ce0e13d1ea8",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "6e665e8b-c02b-462d-b8f4-13c56b359c68"
-        },
-        {
-            "id": "257c1bff-d91c-4989-a975-d3649b47cc05",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "6e665e8b-c02b-462d-b8f4-13c56b359c68"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "0d9d39e2-1461-4114-a067-2664726f3bcf",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -43,7 +24,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "42f08340-bfcb-49b2-9141-5e5d27b77afc",
+            "id": "6e4baecd-3e52-4a4c-8ba1-3c4481abd68b",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -53,8 +34,22 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "false",
-            "varName": "state",
+            "varName": "interactable",
             "varType": 3
+        },
+        {
+            "id": "28adbfec-3146-47ef-ba52-c419852e4814",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "false",
+            "varName": "conditions",
+            "varType": 4
         }
     ],
     "solid": false,
