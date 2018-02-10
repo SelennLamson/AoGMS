@@ -1,5 +1,5 @@
 /// @description
 
-if ((changeable == true) && (interactable == false)) {
-	SetDoorState(conditions);
-}
+//if (interactable == false) {
+//	SetDoorState(conditions);
+//}

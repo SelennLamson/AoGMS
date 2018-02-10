@@ -12,7 +12,7 @@ ProcessCollisions(x - ox, y - oy, 5, 5, -5, 15);
 
 // GAMEPAD & KEYBOARD
 
-if (gamepad_button_check(0, gInputs[0]) || keyboard_check_pressed(kInputs[5])) {	// Interact button or key
+if (gamepad_button_check_pressed(0, gInputs[0]) || keyboard_check_pressed(kInputs[5])) {	// Interact button or key
 	var instID = instance_nearest(xNearest, yNearest, obj_interactables);	// Returns real
 	show_debug_message("INSTANCE ID")
 	show_debug_message(instID);
