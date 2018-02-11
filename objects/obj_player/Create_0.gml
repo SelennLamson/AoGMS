@@ -1,3 +1,7 @@
+// -------------------COLLISIONS------------------
+
+depthDelta = global.playerDepthDelta;
+
 // --------------------SPRITES--------------------
 
 animUp[0] = spr_player_idle_up;
