@@ -1,25 +1,23 @@
 {
-    "id": "ee82390c-5fcb-4225-9492-a01e0d8c0cce",
+    "id": "7d8451f9-da5f-4bb5-9dfe-b73cf5f2373f",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_smallDoor",
+    "name": "obj_test_block",
     "eventList": [
         {
-            "id": "3545ee92-4427-46f0-a603-efd8b0bcc0ea",
+            "id": "939bdd89-3e63-4202-9389-f57c8cd56b4c",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "ee82390c-5fcb-4225-9492-a01e0d8c0cce"
+            "m_owner": "7d8451f9-da5f-4bb5-9dfe-b73cf5f2373f"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "overriddenProperties": [
-        
-    ],
-    "parentObjectId": "6e665e8b-c02b-462d-b8f4-13c56b359c68",
+    "overriddenProperties": null,
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -33,10 +31,8 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": [
-        
-    ],
+    "properties": null,
     "solid": false,
-    "spriteId": "853fd0d9-efd6-4aa3-ba29-b0cbb971421d",
+    "spriteId": "dba30c69-a76d-433c-bee3-dac940e63ae0",
     "visible": true
 }
