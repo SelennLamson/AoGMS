@@ -7,11 +7,11 @@
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
+        "deb054ba-a649-402f-ac42-de335e5d0ba1",
         "8f990e91-e30d-4fdf-a1ae-13108f3f969f",
         "862f4e02-ecaa-4ea6-9a30-e271260e2664",
         "d93a2d5d-2994-458e-adf8-4b2ddcd36afd",
-        "e67dc780-9ad0-4cbb-943c-13efd2bd7dba",
-        "b31c3bee-f9c9-4711-ab1d-c775976a000c"
+        "e67dc780-9ad0-4cbb-943c-13efd2bd7dba"
     ],
     "IsDnD": false,
     "layers": [
@@ -30,7 +30,7 @@
             "inheritVisibility": false,
             "instances": [
 {"name": "inst_4380DA78","id": "d93a2d5d-2994-458e-adf8-4b2ddcd36afd","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_4380DA78","objId": "76b92e26-4894-484a-9049-eccba2bd4711","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 0,"y": -96},
-{"name": "inst_3A6411EA","id": "b31c3bee-f9c9-4711-ab1d-c775976a000c","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_3A6411EA","objId": "9a0967b1-ce3f-4042-b61f-ff117c58b876","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 96,"y": -96}
+{"name": "inst_51896C80","id": "deb054ba-a649-402f-ac42-de335e5d0ba1","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_51896C80","objId": "9a0967b1-ce3f-4042-b61f-ff117c58b876","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 96,"y": -96}
             ],
             "layers": [
 
@@ -178,7 +178,7 @@
             "depth": 57,
             "grid_x": 32,
             "grid_y": 32,
-            "hierarchyFrozen": false,
+            "hierarchyFrozen": true,
             "hierarchyVisible": true,
             "inheritLayerDepth": false,
             "inheritLayerSettings": false,
@@ -192,7 +192,7 @@
                     "depth": 64,
                     "grid_x": 32,
                     "grid_y": 32,
-                    "hierarchyFrozen": false,
+                    "hierarchyFrozen": true,
                     "hierarchyVisible": true,
                     "inheritLayerDepth": false,
                     "inheritLayerSettings": false,
@@ -275,7 +275,7 @@
                     "depth": 71,
                     "grid_x": 32,
                     "grid_y": 32,
-                    "hierarchyFrozen": false,
+                    "hierarchyFrozen": true,
                     "hierarchyVisible": true,
                     "inheritLayerDepth": false,
                     "inheritLayerSettings": false,
@@ -358,7 +358,7 @@
                     "depth": 80,
                     "grid_x": 32,
                     "grid_y": 32,
-                    "hierarchyFrozen": false,
+                    "hierarchyFrozen": true,
                     "hierarchyVisible": true,
                     "inheritLayerDepth": false,
                     "inheritLayerSettings": false,
@@ -441,7 +441,7 @@
                     "depth": 90,
                     "grid_x": 32,
                     "grid_y": 32,
-                    "hierarchyFrozen": false,
+                    "hierarchyFrozen": true,
                     "hierarchyVisible": true,
                     "inheritLayerDepth": false,
                     "inheritLayerSettings": false,
@@ -524,7 +524,7 @@
                     "depth": 100,
                     "grid_x": 32,
                     "grid_y": 32,
-                    "hierarchyFrozen": false,
+                    "hierarchyFrozen": true,
                     "hierarchyVisible": true,
                     "inheritLayerDepth": false,
                     "inheritLayerSettings": false,
@@ -602,7 +602,7 @@
                 }
             ],
             "m_parentID": "00000000-0000-0000-0000-000000000000",
-            "m_serialiseFrozen": false,
+            "m_serialiseFrozen": true,
             "modelName": "GMRLayer",
             "mvc": "1.0",
             "userdefined_depth": false,
@@ -1214,7 +1214,7 @@
     },
     "mvc": "1.0",
     "views": [
-{"id": "95859c39-fdeb-45f5-b590-d33b0bd14078","hborder": 32,"hport": 1280,"hspeed": -1,"hview": 256,"inherit": false,"modelName": "GMRView","objId": "29e80107-4dfd-44d5-a8dc-2dd46e082885","mvc": "1.0","vborder": 32,"visible": true,"vspeed": -1,"wport": 1280,"wview": 256,"xport": 0,"xview": 125,"yport": 0,"yview": 100},
+{"id": "95859c39-fdeb-45f5-b590-d33b0bd14078","hborder": 32,"hport": 1080,"hspeed": -1,"hview": 1080,"inherit": false,"modelName": "GMRView","objId": "00000000-0000-0000-0000-000000000000","mvc": "1.0","vborder": 32,"visible": true,"vspeed": -1,"wport": 1920,"wview": 1920,"xport": 125,"xview": 0,"yport": 100,"yview": 0},
 {"id": "31636a52-9863-4305-9be5-3356f0bae006","hborder": 32,"hport": 768,"hspeed": -1,"hview": 768,"inherit": false,"modelName": "GMRView","objId": "00000000-0000-0000-0000-000000000000","mvc": "1.0","vborder": 32,"visible": false,"vspeed": -1,"wport": 1024,"wview": 1024,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
 {"id": "b5d9e727-15a1-4249-9f25-7c3b97d014e4","hborder": 32,"hport": 768,"hspeed": -1,"hview": 768,"inherit": false,"modelName": "GMRView","objId": "00000000-0000-0000-0000-000000000000","mvc": "1.0","vborder": 32,"visible": false,"vspeed": -1,"wport": 1024,"wview": 1024,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
 {"id": "3479695a-dc8a-4129-91f7-f97e6aa29f7f","hborder": 32,"hport": 768,"hspeed": -1,"hview": 768,"inherit": false,"modelName": "GMRView","objId": "00000000-0000-0000-0000-000000000000","mvc": "1.0","vborder": 32,"visible": false,"vspeed": -1,"wport": 1024,"wview": 1024,"xport": 0,"xview": 0,"yport": 0,"yview": 0},

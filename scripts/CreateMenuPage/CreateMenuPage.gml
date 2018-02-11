@@ -15,10 +15,10 @@ i = 0; repeat (argument_count) {
 	var array_len = array_length_1d(array);
 	
 	var xx = 0; repeat (array_len) {
-		ds_grid_id[# xx, i] = array[xx];
+		ds_gridID[# xx, i] = array[xx];
 		xx++;
 	}
 	
 	i++;
 }
-return ds_grid_id;
+return ds_gridID;
