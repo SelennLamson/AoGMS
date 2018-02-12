@@ -80,23 +80,9 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "4",
-            "varName": "xNearest",
-            "varType": 0
-        },
-        {
-            "id": "ec47f479-dc16-4ffb-b3bf-20134895a16a",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "4",
-            "varName": "yNearest",
-            "varType": 0
+            "value": "16",
+            "varName": "interactionRadius",
+            "varType": 1
         }
     ],
     "solid": false,

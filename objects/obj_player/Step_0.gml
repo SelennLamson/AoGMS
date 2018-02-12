@@ -13,14 +13,15 @@ ProcessCollisions(x - ox, y - oy, 4, 5, -6, 15);
 // GAMEPAD & KEYBOARD
 
 if (gamepad_button_check_pressed(0, gInputs[0]) || keyboard_check_pressed(kInputs[5])) {	// Interact button or key
-	var instID = instance_nearest(xNearest, yNearest, obj_interactables);	// Returns real
-	show_debug_message("INSTANCE ID");
-	show_debug_message(instID);
-	with (instID) {
-		if (interactable) { // == true
-			Interact();
-		}
-	}
+	var xPlayer = x;
+	var yPlayer = y;
+	var radius = interactionRadius;
+	with (obj_interactable)
+		if (abs(xPlayer - x) <= radius && abs(yPlayer - y) <= radius)
+			if (interactable && (interactAgain || (state != stateWhenTrue))) {
+				ComputeState();
+				break;
+			}
 }
 
 // TEST PERSISTROOM

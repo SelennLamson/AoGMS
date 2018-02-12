@@ -2,26 +2,36 @@
     "id": "6e665e8b-c02b-462d-b8f4-13c56b359c68",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_doorsParents",
+    "name": "obj_doorParent",
     "eventList": [
         {
-            "id": "39eccb65-4d24-4759-b112-1ce0e13d1ea8",
+            "id": "7c41e812-c3b8-475a-b159-e31f505121eb",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
+            "enumb": 10,
+            "eventtype": 7,
             "m_owner": "6e665e8b-c02b-462d-b8f4-13c56b359c68"
         },
         {
-            "id": "257c1bff-d91c-4989-a975-d3649b47cc05",
+            "id": "97a99563-56ce-4f7b-8363-68a3c45a14d0",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
+            "m_owner": "6e665e8b-c02b-462d-b8f4-13c56b359c68"
+        },
+        {
+            "id": "8a5ee5eb-00c9-4d4f-b8a1-9dd6fd2b3024",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 11,
+            "eventtype": 7,
             "m_owner": "6e665e8b-c02b-462d-b8f4-13c56b359c68"
         }
     ],
@@ -42,20 +52,7 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": [
-        {
-            "id": "42f08340-bfcb-49b2-9141-5e5d27b77afc",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "false",
-            "varName": "state",
-            "varType": 3
-        }
+        
     ],
     "solid": false,
     "spriteId": "00000000-0000-0000-0000-000000000000",

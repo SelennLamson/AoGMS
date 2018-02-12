@@ -4,6 +4,7 @@
     "mvc": "1.1",
     "name": "6cfeaaaf-be19-4c28-b53f-5e4fb7037884",
     "children": [
+        "11fdf839-23fd-4688-a4b6-91ced9c96e5d",
         "bf0d5628-f534-470b-bb1d-084e752158a7",
         "48e5cf4a-bd6b-4c28-a561-62f8c0fd62b8",
         "d032478c-dc09-42ae-866a-594c253feff5",
@@ -11,7 +12,7 @@
         "807ca55c-948f-40a0-a29d-088bfb1aa745"
     ],
     "filterType": "GMScript",
-    "folderName": "CollisionTilemaps",
+    "folderName": "Collisions",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
