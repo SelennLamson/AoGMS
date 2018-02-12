@@ -6,7 +6,7 @@ inputEnter	= keyboard_check_pressed(vk_enter);
 
 var ds_grid = menuPages[page], ds_height = ds_grid_height(ds_grid);
 
-var ochange = inputDown - inputUp;
+var ochange		= inputDown - inputUp;
 
 if (ochange != 0) {
 	menuOption[page] += ochange;
@@ -16,4 +16,12 @@ if (ochange != 0) {
 	if (menuOption[page] < 0) {
 		menuOption[page] = ds_height - 1;
 	}
+}
+
+if (inputEnter) {
+	switch(ds_grid[# 1, menuOption[page]]) {
+		case menuElementType.pageTransfer : page = ds_grid[# 2, menuOption[page]];
+		break;
+	}
+	// add an Audio sound
 }

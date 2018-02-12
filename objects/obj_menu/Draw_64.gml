@@ -41,3 +41,73 @@ draw_line(startX, startY, startX, lty);
 
 
 // Draw Elements on Right Side
+
+draw_set_halign(fa_left);
+
+var rtx = startX + xBuffer, rty;
+
+yy = 0;
+
+repeat (ds_height) {
+	rty = startY + (yy * yBuffer);
+	switch(ds_grid[# 1, yy]) {
+		case menuElementType.shift :
+			var currentVal = ds_grid[# 3, yy];
+			var currentArray = ds_grid[# 4, yy];
+			var leftShift = "<< ";
+			var rightShift = " >>";
+			
+			if (currentVal == 0) {
+				leftShift = "";
+			}
+			if (currentVal == array_length_1d(ds_grid[# 4, yy]) - 1) {
+				rightShift = "";	
+			}
+			
+			c = c_white;
+			
+			draw_text_color(rtx, rty, leftShift + currentArray[currentVal] + rightShift, c, c, c, c, 1);
+		break;
+		
+		case menuElementType.slider :
+			var len = 64;
+			var currentVal = ds_grid[# 3, yy];
+			var currentArray = ds_grid[# 4, yy];
+			var circlePos = ((currentVal - currentArray[0]) / (currentArray[1] - currentArray[0]));
+			c = c_white;
+			
+			draw_line_width(rtx, rty, rtx + len, rty, 2);
+			draw_circle_color(rtx + (circlePos * len), rty, 4, c, c, false);
+			draw_text_color(rtx + (len * 1.2), rty, string(floor(circlePos * 100)) + "%", c, c, c, c, 1);
+		break;
+		
+		case menuElementType.toggle :
+			var currentVal = ds_grid[# 3, yy];
+			var c1, c2;
+			c = c_white;
+
+			if (currentVal == 0) {
+				c1 = c;
+				c2 = c_dkgray;
+			} else {
+				c1 = c_dkgray;
+				c2 = c;
+			}
+			
+			draw_text_color(rtx, rty, "ON", c1, c1, c1, c1, 1);
+			draw_text_color(rtx + 32, rty, "OFF", c2, c2, c2, c2, 1);
+		break;
+		
+		case menuElementType.input :
+			var currentVal = ds_grid[# 3, yy];
+			var stringVal;
+			
+			if (currentVal) {
+				// Display the current input for keys
+			}
+		break;
+	}
+	yy++;
+}
+
+draw_set_valign(fa_top);
