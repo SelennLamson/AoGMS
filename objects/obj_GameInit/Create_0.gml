@@ -4,8 +4,6 @@ global.floorCollisions = ds_map_create();
 global.layerDelta = 100;
 global.layerCollideDelta = 40;
 global.playerDepthDelta = 10;
-global.instancesUpDelta = 1;
-global.instacesDownDelta = 1;
 
 global.mask_walkable = 1;		// ____ ____ ____ ___1
 global.mask_riseDepth = 8;		// ____ ____ ____ 1___
