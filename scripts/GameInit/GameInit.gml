@@ -15,5 +15,6 @@ global.mask_stairsLeft = 256;	// ____ ___1 ____ ____
 
 global.states = ds_map_create();
 global.loadedRooms = ds_list_create();
+global.flags = ds_list_create();
 
 room_goto(room_next(room));

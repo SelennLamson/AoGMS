@@ -126,11 +126,11 @@ if (_dX >= 0 && _dY > 0) {				// -----------------------------------------------
 		x = (tRight << TILE_SHIFT) - _right - 1;
 		
 		if (ShouldCollide(collLayer, 2, tLeft, tBottomL, tX, tY))
-			y = (tBottomL << TILE_SHIFT) - _bottom - 2 - dL;
+			y = (tBottomL << TILE_SHIFT) - _bottom - 1 - dL;
 	} else if (ShouldCollide(collLayer, 2, tRight, tBottomR, tX, tY))
-		y = (tBottomR << TILE_SHIFT) - _bottom - 2 - dR;
+		y = (tBottomR << TILE_SHIFT) - _bottom - 1 - dR;
 	else if (ShouldCollide(collLayer, 2, tLeft, tBottomL, tX, tY))
-		y = (tBottomL << TILE_SHIFT) - _bottom - 2 - dL;
+		y = (tBottomL << TILE_SHIFT) - _bottom - 1 - dL;
 		
 } else if (_dX >= 0) {					// ------------------------------------------------ RIGHT ; UP
 	if (ShouldCollide(collLayer, 1, tRight, tBottomR, tX, tY)) {
@@ -148,11 +148,11 @@ if (_dX >= 0 && _dY > 0) {				// -----------------------------------------------
 		x = (tLeft << TILE_SHIFT) + TILE_SIZE + _left;
 		
 		if (ShouldCollide(collLayer, 2, tRight, tBottomR, tX, tY))
-			y = (tBottomR << TILE_SHIFT) - _bottom - 2 - dR;
+			y = (tBottomR << TILE_SHIFT) - _bottom - 1 - dR;
 	} else if (ShouldCollide(collLayer, 2, tRight, tBottomR, tX, tY))
-		y = (tBottomR << TILE_SHIFT) - _bottom - 2 - dR;
+		y = (tBottomR << TILE_SHIFT) - _bottom - 1 - dR;
 	else if (ShouldCollide(collLayer, 2, tLeft, tBottomL, tX, tY))
-		y = (tBottomL << TILE_SHIFT) - _bottom - 2 - dL;
+		y = (tBottomL << TILE_SHIFT) - _bottom - 1 - dL;
 		
 } else if (_dX < 0) {					// ------------------------------------------------ LEFT ; UP
 	if (ShouldCollide(collLayer, 3, tLeft, tBottomL, tX, tY)) {
