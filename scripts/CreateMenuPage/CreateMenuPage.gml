@@ -21,4 +21,5 @@ i = 0; repeat (argument_count) {
 	
 	i++;
 }
+
 return ds_gridID;

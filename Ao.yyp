@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "030ca74d-e88b-4a9e-bca5-75ba1f7343fc",
+            "Value": {
+                "id": "9acf9eab-065b-4214-9749-5f9681e3e2a2",
+                "resourcePath": "scripts\\NewGame\\NewGame.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0539ba78-44fb-42af-90d2-c710eb92d5a3",
             "Value": {
                 "id": "268fa481-45f5-41f5-b951-14b55b789e9e",
@@ -495,6 +503,14 @@
             }
         },
         {
+            "Key": "a72028ac-39ee-44c6-a253-8840bfe85240",
+            "Value": {
+                "id": "80922078-d87c-400a-8aea-0f0af58caa96",
+                "resourcePath": "fonts\\fontMenu\\fontMenu.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "a78637c8-2d4a-47e0-bf92-8e41f2238001",
             "Value": {
                 "id": "3281052a-3844-4998-9bb0-2348089d0c8d",
@@ -760,6 +776,7 @@
         "b83b8d34-6158-4cf2-99d0-60af98a391c6",
         "d44a6d70-53bf-4700-996b-a3cc0fd1b1e3",
         "4f31fc9b-e396-4462-89c2-02e8e36a7a8a",
+        "030ca74d-e88b-4a9e-bca5-75ba1f7343fc",
         "11fdf839-23fd-4688-a4b6-91ced9c96e5d",
         "bf0d5628-f534-470b-bb1d-084e752158a7",
         "48e5cf4a-bd6b-4c28-a561-62f8c0fd62b8",

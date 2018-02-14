@@ -12,7 +12,7 @@ ProcessCollisions(x - ox, y - oy, 4, 5, -6, 15);
 
 // GAMEPAD & KEYBOARD
 
-if (gamepad_button_check_pressed(0, gInputs[0]) || keyboard_check_pressed(kInputs[5])) {	// Interact button or key
+if (gamepad_button_check_pressed(0, global.gpInteract) || keyboard_check_pressed(global.keyInteract)) {	// Interact button or key
 	var xPlayer = x;
 	var yPlayer = y;
 	var radius = interactionRadius;

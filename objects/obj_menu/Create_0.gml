@@ -1,3 +1,5 @@
+draw_set_font(fontMenu);
+
 global.pause								= true;
 global.viewWidth							= camera_get_view_width(view_camera[0]);
 global.viewHeight							= camera_get_view_height(view_camera[0]);
@@ -67,6 +69,7 @@ enum menuElementType {
 
 ds_menuMain = CreateMenuPage(
 	["RESUME",				menuElementType.scriptRunner,	ResumeGame],
+	["NEW GAME",			menuElementType.scriptRunner,	NewGame],
 	["SETTINGS",			menuElementType.pageTransfer,	menuPage.settings],
 	["EXIT",				menuElementType.scriptRunner,	ExitGame],
 );
@@ -92,18 +95,18 @@ ds_menuGraphics = CreateMenuPage(
 );
 
 ds_menuControls = CreateMenuPage(
-	["UP",					menuElementType.input,			"keyUp",				ord("Z")],
-	["DOWN",				menuElementType.input,			"keyDown",				ord("S")],
-	["LEFT",				menuElementType.input,			"keyLeft",				ord("Q")],
-	["RIGHT",				menuElementType.input,			"keyRight",				ord("D")],
-	["SPRINT",				menuElementType.input,			"keySprint",			vk_shift],
-	["INTERACT",			menuElementType.input,			"keyInteract",			ord("E")],
-	["TOGGLE PREY MODE",	menuElementType.input,			"keyTogglePreymode",	ord("X")],
-	["TOGGLE LIGHT",		menuElementType.input,			"keyToggleLight",		mb_middle],
-	["TOGGLE LASER",		menuElementType.input,			"keyToggleLaser",		mb_right],
-	["SEND SPHERE",			menuElementType.input,			"keySendSphere",		mb_left],
-	["MAP",					menuElementType.input,			"keyMap",				ord("M")],
-	["MENU",				menuElementType.input,			"keyMenu",				vk_escape],
+	["UP",					menuElementType.input,			"keyUp",				global.keyUp],
+	["DOWN",				menuElementType.input,			"keyDown",				global.keyDown],
+	["LEFT",				menuElementType.input,			"keyLeft",				global.keyLeft],
+	["RIGHT",				menuElementType.input,			"keyRight",				global.keyRight],
+	["SPRINT",				menuElementType.input,			"keySprint",			global.keySprint],
+	["INTERACT",			menuElementType.input,			"keyInteract",			global.keyInteract],
+	["TOGGLE PREY MODE",	menuElementType.input,			"keyTogglePreymode",	global.keyTogglePreyMode],
+	["TOGGLE LIGHT",		menuElementType.input,			"keyToggleLight",		global.keyToggleLight],
+	["TOGGLE LASER",		menuElementType.input,			"keyToggleLaser",		global.keyToggleLaser],
+	["SEND SPHERE",			menuElementType.input,			"keySendSphere",		global.keySendSphere],
+	["MAP",					menuElementType.input,			"keyMap",				global.keyMap],
+	["MENU",				menuElementType.input,			"keyMenu",				global.keyMenu],
 	["BACK",				menuElementType.pageTransfer,	menuPage.settings],
 );
 
@@ -115,3 +118,7 @@ repeat (array_len) {
 	menuOption[i] = 0;
 	i++;
 }
+
+// INPUTTING
+
+inputting = false;

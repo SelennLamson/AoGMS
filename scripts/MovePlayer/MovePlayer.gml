@@ -9,17 +9,17 @@ var yaxis = gamepad_axis_value(0, gp_axislv);
 
 // --------------------KEYBOARD-------------------
 
-if (keyboard_check(kInputs[0])) {
+if (keyboard_check(global.keyUp)) {
 	yaxis = -1;
 }
-if (keyboard_check(kInputs[1])) {
+if (keyboard_check(global.keyDown)) {
 	yaxis = 1;
 	
 }
-if (keyboard_check(kInputs[2])) {
+if (keyboard_check(global.keyLeft)) {
 	xaxis = -1;
 }
-if (keyboard_check(kInputs[3])) {
+if (keyboard_check(global.keyRight)) {
 	xaxis = 1;
 }
 
@@ -27,13 +27,13 @@ if (keyboard_check(kInputs[3])) {
 
 // GAMEPAD
 
-if (gamepad_button_check(0, gInputs[6])) {
+if (gamepad_button_check(0, global.keySprint)) {
 	moveSpeed = sprintSpeed;
 }
 
 // KEYBOARD
 
-if (keyboard_check(kInputs[4])) {
+if (keyboard_check(global.gpSprint)) {
 	moveSpeed = sprintSpeed;
 }
 
