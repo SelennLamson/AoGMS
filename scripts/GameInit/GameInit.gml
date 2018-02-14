@@ -17,4 +17,14 @@ global.states = ds_map_create();
 global.loadedRooms = ds_list_create();
 global.flags = ds_list_create();
 
+// AUDIO
+
+global.audioMaster = 1;
+global.audioSounds = 1;
+global.audioMusic = 1;
+
+// CAMERAS FOR RESOLUTION
+
+global.mainCam = 0;
+
 room_goto(room_next(room));
