@@ -23,8 +23,22 @@ global.audioMaster = 1;
 global.audioSounds = 1;
 global.audioMusic = 1;
 
-// CAMERAS FOR RESOLUTION
-
-global.mainCam = 0;
-
 room_goto(room_next(room));
+
+// WINDOW & RESOLUTION
+
+var sWidth, sHeight, gWidth, gHeight, aspect, cScale, offSet;
+
+gWidth = view_wport[0];
+gHeight = view_hport[0];
+aspect = (gWidth / gHeight);
+sHeight = display_get_height();
+sWidth = (sHeight * aspect);
+cScale = (sHeight / gHeight);
+offSet = 256;
+
+if !window_get_fullscreen()
+
+{ window_set_size((sWidth - offSet),(sHeight - offSet)); }
+
+display_set_gui_size(sWidth,sHeight);

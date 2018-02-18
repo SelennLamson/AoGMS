@@ -1,8 +1,10 @@
 draw_set_font(fontMenu);
 
-global.pause								= true;
+global.menu									= true;
 global.viewWidth							= camera_get_view_width(view_camera[0]);
 global.viewHeight							= camera_get_view_height(view_camera[0]);
+
+global.unsetMap								= false;
 
 // -------------NORMAL-------------
 
@@ -68,7 +70,7 @@ enum menuElementType {
 // CREATE MENU PAGES
 
 ds_menuMain = CreateMenuPage(
-	["RESUME",				menuElementType.scriptRunner,	ResumeGame],
+	["RESUME",				menuElementType.scriptRunner,	ResumeGame,				false],
 	["NEW GAME",			menuElementType.scriptRunner,	NewGame],
 	["SETTINGS",			menuElementType.pageTransfer,	menuPage.settings],
 	["EXIT",				menuElementType.scriptRunner,	ExitGame],
@@ -89,12 +91,12 @@ ds_menuAudio = CreateMenuPage(
 );
 
 ds_menuGraphics = CreateMenuPage(
-	["RESOLUTION",			menuElementType.shift,			ChangeResolution,		0,				["384 x 216", "768 x 432", "1152 x 648", "1536 x 874", "1920 x 1080"]],
-	["WINDOW MODE",			menuElementType.toggle,			ChangeWindowMode,		1,				["FULLSCREEN", "WINDOWED"]],
+	["WINDOW MODE",			menuElementType.toggle,			ChangeWindowMode,		0,				["FULLSCREEN", "WINDOWED"]],
 	["BACK",				menuElementType.pageTransfer,	menuPage.settings],
 );
 
 ds_menuControls = CreateMenuPage(
+	["DEFAULT",				menuElementType.scriptRunner,	UnsetMap,				"DEFAULT"],
 	["UP",					menuElementType.input,			"keyUp",				global.keyUp],
 	["DOWN",				menuElementType.input,			"keyDown",				global.keyDown],
 	["LEFT",				menuElementType.input,			"keyLeft",				global.keyLeft],
@@ -106,7 +108,7 @@ ds_menuControls = CreateMenuPage(
 	["TOGGLE LASER",		menuElementType.input,			"keyToggleLaser",		global.keyToggleLaser],
 	["SEND SPHERE",			menuElementType.input,			"keySendSphere",		global.keySendSphere],
 	["MAP",					menuElementType.input,			"keyMap",				global.keyMap],
-	["MENU",				menuElementType.input,			"keyMenu",				global.keyMenu],
+	["MENU",				menuElementType.input,			"keyMenu",				global.keyMenu],			
 	["BACK",				menuElementType.pageTransfer,	menuPage.settings],
 );
 

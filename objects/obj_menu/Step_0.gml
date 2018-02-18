@@ -1,4 +1,4 @@
-if (!global.pause) exit;
+if (!global.menu) exit;
 
 inputUp		= keyboard_check_pressed(vk_up);
 inputDown	= keyboard_check_pressed(vk_down);
